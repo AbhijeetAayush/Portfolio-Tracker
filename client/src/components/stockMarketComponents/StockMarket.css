@@ -1,0 +1,37 @@
+.table, .card, .fav{
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    
+}
+
+.searchbox {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.searchbox:focus {
+    border-color: #007bff; /* Highlight border color */
+    box-shadow: 0px 0px 20px -5px rgba(0, 123, 255, 0.75);
+    -webkit-box-shadow: 0px 0px 20px -5px rgba(0, 123, 255, 0.75);
+}
+
+.searchbox::placeholder {
+    color: #999;
+    font-style: italic;
+}
+
+.searchbox:hover {
+    border-color: #888; /* Border color on hover */
+    background-color: #f9f9f9; /* Slight background change on hover */
+    cursor: pointer;
+}
+
+
